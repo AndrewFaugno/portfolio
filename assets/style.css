@@ -1,10 +1,64 @@
 :root {
-    --primaryColor: rgb(59, 1, 71);
-    --secondaryColor: #fff; 
-    --tertiaryColor: #fff;
+    --primaryColor: rgb(71, 71, 71);
+    --secondaryColor: rgba(0, 162, 255, 0.75); 
+    --tertiaryColor: rgb(0, 0, 0);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #d3d3d3;
+    color: var(--tertiaryColor);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    background: var(--primaryColor);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nameLogo {
+    padding: 5px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secondaryColor);
+    padding-left: 100px;
+    border-radius: 0px 5px 5px 0px;
+
 }
 header img {
-    width: 200px;
-    height: 200px;
+    max-width: 75px;
+    float: left;
     border-radius: 50%;
+}
+header h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+    padding-left: 10px;
+}
+header a {
+    text-decoration: none;
+    color: var(--tertiaryColor);
+}
+header nav {
+    margin: auto 10px;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 10px;
+    margin: 10px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    border-bottom: 2px solid var(--secondaryColor);
 }
