@@ -1,0 +1,10 @@
+:root {
+    --primaryColor: rgb(59, 1, 71);
+    --secondaryColor: #fff; 
+    --tertiaryColor: #fff;
+}
+header img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
