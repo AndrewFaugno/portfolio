@@ -70,23 +70,18 @@ header nav ul li a {
 .aboutMe, .myWork, .contactMe {
     display: flex;
     margin: 50px auto;
-    width: 75%;
+    width: 65%;
     line-height: 1.5;
-
 }
-.aboutMe h2, .myWork h2, .contactMe h2 {
-    margin-right: 50px;
+.sidebar {
+    margin-right: 30px;
     width: 120px;
     font-size: 36px;
     padding-right: 10px;
-    padding-bottom: auto;
     border-right: 5px solid var(--secondaryColor);
-    float: right;
     text-align: right;
-    position: relative;
 }
 .about-me-text  {
-    display: flex;
     line-height: 1.7;
     font-size: 20px;
     margin: auto 40px;
@@ -142,4 +137,49 @@ header nav ul li a {
 .imgtext1 h4, .imgtext2 h4 {
     font-size: 18px;
     font-weight: lighter;
+}
+.contactbox {
+    margin: auto;
+}
+.contactMe a { 
+    padding: 50px; 
+    font-size: 26px;
+}
+
+
+/* Media query for smaller screens */
+@media screen and (max-width: 980px) {
+    header {
+        width: 100%;
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    body {
+        width: 100%;
+        justify-content: center;
+    }
+    header nav ul li a {
+        width: 100%;
+        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+    .aboutMe, .contactMe, .myWork {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media screen and (max-width: 575px) {
+    
 }
