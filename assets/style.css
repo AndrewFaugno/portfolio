@@ -1,6 +1,6 @@
 :root {
     --primaryColor: rgb(99, 99, 99);
-    --secondaryColor: rgba(2, 110, 173, 0.75); 
+    --secondaryColor: rgb(3, 148, 232); 
     --tertiaryColor: rgb(0, 0, 0);
 }
 * {
@@ -66,15 +66,15 @@ header nav ul li a {
 }
 /* Header styling Ends */
 
-/* About Me (and other sections) Styling Starts */
-.aboutMe, .myWork {
+/* Section Styling Starts */
+.aboutMe, .myWork, .contactMe {
     display: flex;
     margin: 50px auto;
     width: 75%;
     line-height: 1.5;
 
 }
-.aboutMe h2, .myWork h2 {
+.aboutMe h2, .myWork h2, .contactMe h2 {
     margin-right: 50px;
     width: 120px;
     font-size: 36px;
@@ -88,27 +88,58 @@ header nav ul li a {
 .about-me-text  {
     display: flex;
     line-height: 1.7;
-    /* width: 80%; */
     font-size: 20px;
     margin: auto 40px;
     text-align: left;
     flex-flow: column;
 }
-.aboutMe p {
-    line-height: ;
-}
-/* About Me Styling Ends */
 
-/* My Work Styling Starts */
 .workRefrences {
     margin: auto 40px;
+    display: flex;
+    flex-flow: column;
+}
+.imgcontainer1, .imgcontainer2 {
+    display: flex;
+    flex: auto;
 }
 
-.workImg1 img {
-    width: 800px;
+.imgcontainer1 img {
+    width: 1000px;
     height: 500px;
 }
-.run-buddy img, .workImg2 img, .workImg3 img, .workImg4 img, .workImg5 img {
-    width: 400px;
-    height: 400;
+.imgcontainer2 img {
+    width: 490px;
+    height: 250px;
+    margin: 10px 0 5px 0;
+}
+.workRefrences img {
+    border: 5px solid var(--secondaryColor);
+}
+.img-floatleft {
+    float: left;
+}
+.img-floatright {
+    float: right;
+}
+.imgtext1, .imgtext2 {
+    position: absolute;
+    background-color: var(--secondaryColor);
+    text-align: right;
+    padding-right: 5px;
+    padding-left: 15px;  
+}
+.imgtext1 {
+    margin-top: 300px;
+}
+.imgtext2 {
+    margin-top: 150px;
+}
+.imgtext1 h3, .imgtext2 h3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+.imgtext1 h4, .imgtext2 h4 {
+    font-size: 18px;
+    font-weight: lighter;
 }
