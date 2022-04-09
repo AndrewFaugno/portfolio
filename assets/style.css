@@ -74,7 +74,29 @@ header nav ul li a:hover {
 }
 /* Header styling Ends */
 
-/* HERO Styling */
+/* HERO Styling Starts */
+.hero {
+    background-image: url("./images/jumbotron-blue.avif");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 200px;
+    position: relative;
+    box-shadow: -3px 2px 30px black;
+}
+.herotext {
+    position: absolute;
+    right: 5%;
+    bottom: 30px;
+}
+.hero h2 {
+    background-color: var(--secondaryColor);
+    border-radius: 15px;
+    font-size: 40px;
+    padding: 15px;
+    
+}
+/* HERO Styling Ends */
 
 /* Section Styling Starts */
 .aboutMe, .myWork, .contactMe {
@@ -188,6 +210,13 @@ header nav ul li a:hover {
         justify-content: space-between;
         position: relative;
     }
+    .hero {
+        height: 150px;
+    }    
+    .hero h2 {
+        font-size: 28px;
+        padding: 6px;
+    }
     header h1 {
         width: 100%;
         text-align: center;
@@ -210,6 +239,7 @@ header nav ul li a:hover {
     }
     .aboutMe, .contactMe, .myWork {
         width: 100%;
+        padding-right: 20px;
     }
     .contactMe a {
         padding: 10px;
@@ -242,6 +272,12 @@ header nav ul li a:hover {
         margin: 5px;
         padding: 10px;
     }
+    .hero {
+        height: 110px;
+    }
+    .hero h2 {
+        font-size: 20px;
+    }
     .sidebar {
         min-width: 90px;
         margin-right: 15px;
@@ -272,3 +308,4 @@ header nav ul li a:hover {
         }
     
 }
+/* Media Query Finish */
