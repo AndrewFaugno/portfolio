@@ -7,7 +7,7 @@ This Website is to give future employers a rundown of my skills and knowledge of
 * HTML
 * CSS
 
-#Website
+## Website
 https://andrewfaugno.github.io/portfolio/
 
 ## Deployed Application
