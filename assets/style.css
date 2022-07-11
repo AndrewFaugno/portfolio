@@ -108,7 +108,7 @@ header nav ul li a:hover {
 .sidebar {
     min-width: 129px;
     margin-right: 30px;
-
+    
     font-size: 30px;
     padding-right: 10px;
     border-right: 5px solid var(--secondaryColor);
