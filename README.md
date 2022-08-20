@@ -11,4 +11,4 @@ This Website is to give future employers a rundown of my skills and knowledge of
 https://andrewfaugno.github.io/portfolio/
 
 ## Deployed Application
-![image](https://user-images.githubusercontent.com/93367297/169141796-73f6e53f-b8de-4a41-95be-be6297d67547.png)
+<img width="800" alt="Screen Shot 2022-08-20 at 5 48 21 PM" src="https://user-images.githubusercontent.com/93367297/185767099-1d76fbae-cd56-4bd2-bf91-8204529fd97c.png">
